@@ -6,8 +6,7 @@ import csv
 
 # - - - - - - - - - - - - - - - file handling. - - - - - - - - - - - - - - - 
 # source file path for excel files.
-#master_path = 'C:\\VM_Automation 2019-12-16\\VM_Reports\\CTI_WEEKLY_REPORTS\\scheduled\\'
-master_path = 'C:\\scheduled\\'
+master_path = 'C:\\folder location\\'  # change this accordingly
 
 f = open ("list.txt", "r")                                          # open source excel file folder list.
 f1 = f.readlines()
