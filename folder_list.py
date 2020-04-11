@@ -1,6 +1,6 @@
 import os.path
 
-master_path = 'C:\\file_location'
+master_path = 'C:\\file_location'   # change this accordingly
 
 folder_name = os.listdir(master_path)           # list ltems in folder.
 
